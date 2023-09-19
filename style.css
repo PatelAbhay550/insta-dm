@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway';
+}
+.main{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: aliceblue;
+}
+.top-bar-floating{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 87;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 60px;
+}
+.left-icons,.right-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.left-icons{
+    font-size: 24px;
+}
+.right-icons i{
+    font-size: 28px;
+}
+.left-icons i:last-child{
+    background-color: #cecece;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px;
+    border-radius: 50%;
+}
+.chat-area{
+    width: 100%;
+    text-align: center;
+    height: calc(100vh - 120px);
+    background-color: #fff;
+}
+.user-info{
+    width: 100%;
+    background-color: transparent; 
+}
+.users{
+width: 100%;
+padding-top: 50px;
+height: 100px;
+}
+.user-info i{
+    font-size: 65px;
+    padding: 5px;
+    
+    border-radius: 50%;
+    background-color: #cecece;
+    color: #fff;
+}
+.user-info h2{
+    margin-top: 15px;
+    font-size: 19px;
+}
+.user-info p{
+    font-weight: 800px;
+    margin-top: 5px;
+}
+.user-info button{
+    padding: 8px 12px;
+    margin-top: 10px;
+    border: none;
+    font-weight: 700;
+    background-color: #efeeee;
+    color: #000;
+}
+.sending{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 10px;
+    bottom: 0;
+    background-color: #cecece;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 87;
+}
+textarea {
+    resize: none !important;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-size: 35px;
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin-left: 5px;
+    outline: none;
+  }
+.left-chat-icons{
+    border-radius: 50%;
+    display: flex;
+    padding: 7px;
+    margin: 6px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 103, 135);
+}
+.left-chat-icons i{
+    font-size: 25px;
+}
+.chat{
+    margin-right: 7px;
+}
